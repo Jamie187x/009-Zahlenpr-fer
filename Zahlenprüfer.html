@@ -1,0 +1,42 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+		<title>Zahlenprüfer</title>
+		
+		
+		<script>
+			"use strict";
+			
+			function fMod() {
+				    var vZahl;
+                    vZahl = document.getElementById("idName").innerHTML
+			
+                    var vAusgabeHtml;
+
+                    if (vZahl % 2 == 0) {
+                        vAusgabeHtml = "Die Zahl: "vZahl" ist gerade."
+                    } else {
+                        "Die Zahl: "vZahl" ist ungerade."}
+                      
+                    {
+                                                     
+                    vAusgabeHtml = "";
+                    vAusgabeHtml = vAusgabeHtml + "Die Zahl: ";
+                    vAusgabeHtml = vAusgabeHtml + vZahl;
+                    vAusgabeHtml = vAusgabeHtml + " ist ungerade.";
+                }					
+
+			}
+		
+		</script>
+	
+		</head><body>
+		<img src="Zahlenlogo.jpg" height="120px" width="400px"></br></br> 
+		<h1>Zahlenprüfer</h1>
+        Zahl: <input id="idZahl" value="5"><br><br>
+       <button onclick="fMod();">Prüfe!</button><br>
+	   <br>
+        <div id="idAusgabeHtml"></div>
+	
+</body></html>
